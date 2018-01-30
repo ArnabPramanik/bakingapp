@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.arnab.android.bakingapp.Step2Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/rl_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/v_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent" />
+
+    <LinearLayout
+        android:id="@+id/layout_step"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:clickable="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:id="@+id/tv_prev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+
+            android:textColor="@color/colorPrimaryLight"
+            tools:text="HEy there"
+           />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimaryLight"
+            tools:text="HEy there"
+            android:gravity="center"
+             />
+
+    </LinearLayout>
+
+</LinearLayout>

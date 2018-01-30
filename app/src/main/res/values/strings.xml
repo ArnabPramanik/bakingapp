@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+
+    <string name="content_description_approval_icon">Approval Icon</string>
+    <string name="cd_recipe_image_thumbnail">Recipe Image Thumbnail</string>
+    <string name="cd_favorite_icon">Favorite Icon</string>
+    <string name="cd_serving_icon">Serving Icon</string>
+    <string name="cd_step_icon">Step Icon</string>
+    <string name="appwidget_text">Choose recipe</string>
+    <string name="add_widget">Add widget</string>
+    <string name="action_settings">Add widget</string>
+
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="Something is wrong"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/master_list"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_layout">
+
+        <FrameLayout
+            android:id="@+id/ingredients_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:scaleType="centerInside"/>
+        <FrameLayout
+            android:id="@+id/steps_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:scaleType="centerInside"/>
+
+        <FrameLayout
+            android:id="@+id/video_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerInside"/>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
+</FrameLayout>
